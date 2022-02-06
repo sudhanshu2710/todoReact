@@ -1,0 +1,31 @@
+.taskNotDone {
+  color: red;
+  margin-left: 10px;
+}
+.taskDone {
+  color: green;
+  margin-left: 10px;
+}
+.task {
+  background: yellow;
+}
+.container {
+  display: grid;
+  grid-template-columns: 5% 40% 25%;
+
+  padding: 10px;
+  font-size: 20px;
+  align-items: center;
+  font-weight: bolder;
+  margin-left: 250px;
+  margin-right: 100px;
+}
+.btn {
+  cursor: pointer;
+  padding: 5px 20px;
+  border: 1px solid #ff0000;
+  background-color: rgb(235, 54, 54, 0.8);
+  color: white;
+  border-radius: 12px;
+  margin-left: 40px;
+}
